@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto+Mono:ital,wght@0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+
+
+    <title>Tic Tac Toe X O</title>
+  </head>
+  <body>
+
+
+    <nav>
+      <div class="logo">
+        <a href="/index.html"><img src="/multi/img/logo.png" height="200px"></a>
+      </div>
+      
+    </nav>
+
+   
+   <div class="container">
+    <div class="intro">
+      <p  style="margin: 0;" class="instructions" >Player 1 : <span style="color: blueviolet;" > Takes X</span></p>  || <p style="margin: 0;" class="instructions"  >  player 2 :<span  style="color: blueviolet;"  > Takes O</span></p>
+    </div>
+
+    <div class="board" id="board">
+      
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+      <div data-winning-message-text></div>
+      <button id="restartButton">Restart</button>
+    </div>
+
+   </div>
+    
+      
+    
+    </div>
+  </body>
+</html>

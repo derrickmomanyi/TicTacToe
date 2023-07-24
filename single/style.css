@@ -10,11 +10,11 @@ html {
 
 body {
   /* background-color: #55E9BC; */
-
-  background-image: url(/img/paint5.jpg); 
-  background-size: cover; 
+/* 
+  background-image: url(/images/javahouse_logo.png); 
+   background-size: cover; 
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;  */
   overflow-y: hidden;
   color: #d0112b;
   font-size: 16px;
@@ -24,6 +24,11 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.logo{
+/* margin-top: 200px; */
+color: #537780;
 }
 
 u {
